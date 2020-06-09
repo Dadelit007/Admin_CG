@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pub"
+            android:scaleType="centerCrop"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH#"
+            android:layout_below="@id/image"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_toRightOf="@+id/match"
+            android:text="2000"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:id="@+id/add_match_no"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_toRightOf="@id/add_match_no"
+            android:text="ID:"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:id="@+id/id"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id"
+            android:layout_toRightOf="@id/add_match_no"
+            android:text="PASS:"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:id="@+id/pass"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/image"
+            android:layout_toRightOf="@id/id"
+            android:textSize="20sp"
+            android:text=""
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:id="@+id/add_id_pass"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_id_pass"
+            android:layout_marginTop="10dp"
+            android:text="Date:08/06/2020 Time:11:00 PM"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/add_date_time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_date_time"
+            android:text="PRIZE POOL"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:id="@+id/prize1"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/coin"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/prize1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/coin"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prize1"
+            android:text="1680"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/coin"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:id="@+id/add_prize"
+            android:textColor="@color/Black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_prize"
+            android:text="TYPE"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/type1"/>
+        <EditText
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type1"
+            android:text="SQUAD "
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/Black"
+            android:id="@+id/add_type"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/add_prize"
+            android:layout_below="@id/add_date_time"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/rel">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PER KILL"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:id="@+id/priz"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/coin"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/priz"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/coin1"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/priz"
+                android:text="15"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/coin1"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:id="@+id/add_kill"
+                android:textColor="@color/Black"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_kill"
+                android:text="MODE"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:id="@+id/mode1"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mode1"
+                android:text="TPP"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:id="@+id/add_mode"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_date_time"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/rel">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTRY FEE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:id="@+id/entry"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/coin"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/entry"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/coin2"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/entry"
+                android:text="20"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/coin2"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:id="@+id/add_entry_fee"
+                android:textAlignment="center"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_entry_fee"
+                android:text="MAP"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:id="@+id/map1"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/map1"
+                android:text="ERANGEL"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:id="@+id/add_map"/>
+
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/rel"
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress"/>
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/pog">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SPOT LEFT:"
+                android:id="@+id/spot1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="88"
+                android:layout_toRightOf="@id/spot1"
+                android:id="@+id/spot"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_toLeftOf="@id/spot3"
+                android:id="@+id/spot2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/100"
+                android:layout_alignParentRight="true"
+                android:id="@+id/spot3"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel"
+            android:layout_toRightOf="@id/pog"
+            android:text="JOIN"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:shadowColor="@color/Black"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="submit"
+            android:background="@color/colorPrimary"
+            android:id="@+id/add_submit"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "939650415397",
+    "firebase_url": "https://crossfire-gaming.firebaseio.com",
+    "project_id": "crossfire-gaming",
+    "storage_bucket": "crossfire-gaming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939650415397:android:b9e5a792b98239c00e78cc",
+        "android_client_info": {
+          "package_name": "com.example.admincg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939650415397-e6v9n8ft6d9nobnl8uef44mpfqnl9uot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admincg",
+            "certificate_hash": "07a31ebe52c7c1ae368ad04b943a41e5503b8a2f"
+          }
+        },
+        {
+          "client_id": "939650415397-g22321i5v4un1lgoii306s5h1kohn3j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2T5nGyfH-f3Ic33xjTiAmUCp06Qw-fog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939650415397-g22321i5v4un1lgoii306s5h1kohn3j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939650415397:android:846cbe210ac50c390e78cc",
+        "android_client_info": {
+          "package_name": "com.example.crossfiregaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939650415397-u0m7m98ac72k146bst1mf4q8qgs0snvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crossfiregaming",
+            "certificate_hash": "07a31ebe52c7c1ae368ad04b943a41e5503b8a2f"
+          }
+        },
+        {
+          "client_id": "939650415397-g22321i5v4un1lgoii306s5h1kohn3j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2T5nGyfH-f3Ic33xjTiAmUCp06Qw-fog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939650415397-g22321i5v4un1lgoii306s5h1kohn3j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
